@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexController {
 
     @RequestMapping(value = "")
-    public ResponseEntity index(){
-        return new ResponseEntity(HttpStatus.OK);
+    public String index(){
+        return "Hello World";
     }
 }
