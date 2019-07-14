@@ -1,1 +1,1 @@
-web: java -jar target/swhx.war
+web: java -jar webapp-runner.jar target/swhx.war
