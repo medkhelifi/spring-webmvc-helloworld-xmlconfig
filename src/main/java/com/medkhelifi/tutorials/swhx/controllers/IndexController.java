@@ -9,6 +9,6 @@ public class IndexController {
 
     @RequestMapping(value = "")
     public String index(){
-        return "Hello World from master branch";
+        return "Hello World from deploy/heroku new merge";
     }
 }
